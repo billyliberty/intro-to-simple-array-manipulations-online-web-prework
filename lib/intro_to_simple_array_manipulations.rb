@@ -55,7 +55,7 @@
   def using_delete(instructors, 'Steven')
     instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
     
-    array.delete('Steven')
+    instructors.delete('Steven')
   end
 
   def using_delete_at(famous_robots, integer)
