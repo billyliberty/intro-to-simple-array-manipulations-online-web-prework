@@ -54,7 +54,7 @@
 
   def using_delete(array, element)
     array = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-    
+
     array.delete("Steven"
   end
 
