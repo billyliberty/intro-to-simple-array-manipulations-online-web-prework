@@ -52,7 +52,7 @@
     new_array = @private_colleges_in_newyork.flatten
   end
 
-  
+
 
   def using_delete(instructors, fired)
     instructors.delete(fired)
