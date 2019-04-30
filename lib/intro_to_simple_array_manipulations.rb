@@ -52,10 +52,10 @@
     new_array = @private_colleges_in_newyork.flatten
   end
 
-  def using_delete(instructors, name)
+  def using_delete(instructors, element)
     instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-    name = "Steven"
-    no_offense_steven = instructors.delete(name)
+    element = "Steven"
+    no_offense_steven = instructors.delete(element)
   end
 
   def using_delete_at(famous_robots, integer)
