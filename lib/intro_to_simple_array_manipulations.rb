@@ -53,9 +53,9 @@
   end
 
   def using_delete(instructors, element)
-    instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+    @instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
     element = "Steven"
-    no_offense_steven = instructors.delete(element)
+    @no_offense_steven = @instructors.delete(element)
   end
 
   def using_delete_at(famous_robots, integer)
